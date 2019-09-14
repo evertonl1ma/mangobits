@@ -1,0 +1,33 @@
+.portfolio {
+    background: #131313;
+    margin-top: 90px;
+}
+
+.portfolio__container {
+    width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-out {
+    position: relative;
+    top: -50px;
+}
+.portfolio__image {
+    width: 50%;
+}
+
+.portfolio__image img {
+    width: 100%;
+}
+
+.portfolio__text {
+    padding: 20px;
+    width: 50%;
+}
+
+@media(max-width: 650px) {
+    .portfolio__container {
+        width: 100%;
+    }
+}

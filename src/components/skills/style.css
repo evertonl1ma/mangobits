@@ -1,0 +1,17 @@
+.skills {
+    margin-top: 60px;
+}
+
+.skills__container {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}

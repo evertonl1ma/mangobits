@@ -1,0 +1,13 @@
+.footer-section {
+    background: #3CB2AA;
+    background-image: url('../../assets/wave-footer.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.contact__text {
+    background-image: url('../../assets/smarthphone.svg');
+}

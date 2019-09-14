@@ -1,0 +1,25 @@
+
+.presentation {
+    background-color: #131313;
+    padding: 10px 2px;
+}
+
+.presentation__container {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.presentation__item {
+    width: 33.33%;
+    padding: 20px;
+}
+
+
+@media(max-width: 980px) {
+    .presentation__container {
+        width: 100%;
+        padding: 20px;
+        outline: 2px solid orange;
+    }
+}
