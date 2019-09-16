@@ -20,6 +20,26 @@
     .presentation__container {
         width: 100%;
         padding: 20px;
-        outline: 2px solid orange;
+    }
+}
+
+@media(max-width: 860px) {
+    .presentation__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .presentation__item {
+        font-size: 1.5rem;
+    }
+
+    .presentation__item--main {
+        width: 100%;
+    }
+
+    .presentation__item--main p {
+        text-align: center !important;
+        font-size: 1.8rem !important;
     }
 }

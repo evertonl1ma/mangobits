@@ -49,3 +49,28 @@
 .bg-project {
     width: 150px;
 }
+
+@media(max-width: 1230px) {
+    .intern__projects-container {
+        width: 85%;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .project {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .project__paragraph {
+        text-align: center !important;
+        font-size: 1.2rem;
+        margin-top: 10px;
+        white-space: normal;
+    }
+
+    .btn-intern {
+        margin-top: 10px;
+    }
+}

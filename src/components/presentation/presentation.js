@@ -7,7 +7,7 @@ import experiencia from '../../assets/icon-experiencia.svg';
 const Presentation = () => (
     <section className="presentation text-color--white">
        <div className="presentation__container flex flex-wrap">
-       <div className="presentation__item">
+       <div className="presentation__item--main presentation__item">
             <p className="text-right ft-w-100 ft-g">
                 Mais de<br /> 
                 1.000.000 de pessoas<br />

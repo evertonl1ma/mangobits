@@ -10,7 +10,7 @@ const Skills = () => (
         <div className="skills__container">
             <div className="skill flex">
                 <div className="skill__image">
-                    <img src={iconApps} alt=""  alt="Ícone de apps" />
+                    <img src={iconApps}  alt="Ícone de apps" />
                 </div>
                 <div className="skill__text text-left">
                     <h4 className="h4">Plataformas nativas</h4>
@@ -24,7 +24,7 @@ const Skills = () => (
             </div>
 
             <div className="skill flex">
-                <div className="skill__text text-left">
+                <div className="skill__text text-left order-2-sm">
                     <h4 className="h4">Sua Nuvem com Java</h4>
 
                     <p className="">
@@ -34,7 +34,7 @@ const Skills = () => (
                     </p>
                 </div>
 
-                <div className="skill__image">
+                <div className="skill__image order-1-sm">
                     <img src={java} alt=""  alt="Ícone do Java" />
                 </div>
             </div>

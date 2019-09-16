@@ -25,8 +25,21 @@ class Banner extends Component {
                 </header>
                 <section className="main__present">
                     <div className="main__text">
+
+                    <ul className="bg-bubbles">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ul>
                           <div className="main__logo">
-                               <img className="mb-2" role="logo" src={logo} alt="Logo mangobits" />
+                               <img className="mb-2" role="logo" src={logo} alt="Logo mangobits" width="320" />
                           </div>
 
                           <div className="main__text-titles ml-5">  

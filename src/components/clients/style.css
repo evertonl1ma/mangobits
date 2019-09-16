@@ -17,3 +17,37 @@
     justify-content: space-around;
     width: 80%;
 }
+
+@media(max-width: 1201px) {
+    .clients__container {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 870px) {
+    .clients__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients__list {
+        width: 100%;
+    }
+
+    .clients__text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 690px) {
+    .clients__list {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .client {
+        margin-bottom: 20px;
+    }
+}

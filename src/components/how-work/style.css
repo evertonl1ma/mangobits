@@ -4,17 +4,18 @@
 }
 
 .howWork__container {
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
 .howWork__header {
     align-items: center;
-    outline: 2px solid tomato;
     justify-content: space-around;
     margin-bottom: 30px;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -36,3 +37,21 @@
     padding: 10px;
 }
 
+@media(max-width: 1101px) {
+   /* .howWork__container {
+        width: 100%;
+        padding: 20px;
+    } */
+}
+
+@media(max-width: 745px) {
+  .howWork__feels, 
+  .howWork__header {
+    flex-direction: column;
+  }
+
+  .feel-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
