@@ -24,6 +24,11 @@
 }
 
 @media(max-width: 860px) {
+    .presentation__item {
+        width: 100%;
+        padding: 20px;
+    }
+
     .presentation__container {
         flex-direction: column;
         justify-content: center;

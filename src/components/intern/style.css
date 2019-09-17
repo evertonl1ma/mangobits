@@ -74,3 +74,11 @@
         margin-top: 10px;
     }
 }
+
+@media(max-width: 760px) {
+    .actions {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10%;
+    }
+}

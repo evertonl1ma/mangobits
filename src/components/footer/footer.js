@@ -1,8 +1,10 @@
 import React from 'react';
 import './style.css';
+import logo from '../../assets/logo-mangobits.svg';
 
 const Footer = () => (
-    <div className="footer-section">
+    <React.Fragment>
+        <div className="footer-section">
         <div className="contact">
             <div className="contact__container flex">
                 <div className="contact__title">
@@ -18,6 +20,12 @@ const Footer = () => (
             </div>
         </div>
     </div>
+
+    <footer className="footer flex">
+          <img src={logo} />
+          <p className="text-footer text-color--white">2019 - Direito reservados</p>
+    </footer>
+    </React.Fragment>
 )
 
 export default Footer;

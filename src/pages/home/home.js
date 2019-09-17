@@ -18,7 +18,6 @@ const Main = () => (
         <HowWork  />
         <Clients />
         <Footer />
-        <br /><br /><br />
     </React.Fragment>
 )
 

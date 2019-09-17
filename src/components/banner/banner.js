@@ -17,29 +17,29 @@ class Banner extends Component {
                         <input className="menu__container--checkbox" type="checkbox" id="menu-btn" />
                         <label className="menu__btn" htmlFor="menu-btn"><span className="menu__btn--navicon"></span></label>
                         <ul className="menu__navigation">
-                            <li className="menu__navigation--item"><a href="#como-funciona" className="menu__navigation--link" data-scroll-to="como-funciona">Como funciona</a></li>
-                            <li className="menu__navigation--item"><a href="#vantagens" className="menu__navigation--link" data-scroll-to="vantagens">Vantagens</a></li>
+                            <li className="menu__navigation--item"><a href="#" className="menu__navigation--link" data-scroll-to="como-funciona">Portfólio</a></li>
+                            <li className="menu__navigation--item"><a href="#" className="menu__navigation--link" data-scroll-to="vantagens">Contato</a></li>
                         </ul>
-                        <a href="#" className="btn menu__container--btn">Entrar</a>
+                        {/* <a href="#" className="btn menu__container--btn">Entrar</a> */}
                     </nav>
                 </header>
                 <section className="main__present">
                     <div className="main__text">
 
                     <ul className="bg-bubbles">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                        <li>10</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
                     </ul>
                           <div className="main__logo">
-                               <img className="mb-2" role="logo" src={logo} alt="Logo mangobits" width="320" />
+                               <img className="mb-2 main-logo" role="logo" src={logo} alt="Logo mangobits" width="400" />
                           </div>
 
                           <div className="main__text-titles ml-5">  
